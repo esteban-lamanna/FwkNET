@@ -27,5 +27,15 @@ namespace Logic
         {
             return this.Repository.ReadExtendedViewByCriteria(criteria);
         }
+
+        public EV Add(TEntity entity)
+        {
+            return this.Repository.Add(entity);
+        }
+
+        public void Delete(long ID)
+        {
+            this.Repository.Delete(ID);
+        }
     }
 }

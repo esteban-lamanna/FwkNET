@@ -16,5 +16,7 @@ namespace Logic
     {
         List<EV> ReadExtendedViewByCriteria(C criteria);
         TEntity Read(long ID);
+        EV Add(TEntity entity);
+        void Delete(long ID);
     }
 }

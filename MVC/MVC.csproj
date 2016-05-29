@@ -284,6 +284,10 @@
       <Project>{146bebd1-60cc-4221-a754-86feee5a7711}</Project>
       <Name>Service</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ViewModelEntities\ViewModelEntities.csproj">
+      <Project>{8dac89af-871d-4c13-8b0a-36bff087886c}</Project>
+      <Name>ViewModelEntities</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

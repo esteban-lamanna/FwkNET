@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BasicBusinessLogic.cs" />
+    <Compile Include="PersonaLogic\PersonaLogic.cs" />
     <Compile Include="EntityManagerLogic.cs" />
     <Compile Include="IBusinessLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

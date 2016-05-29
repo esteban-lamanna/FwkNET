@@ -20,12 +20,12 @@ namespace Repository
             throw new NotImplementedException();
         }
 
-        public void Delete(TEntity entity)
+        public EV Update(TEntity entity)
         {
             throw new NotImplementedException();
         }
 
-        public EV Update(TEntity entity)
+        public void Delete(long ID)
         {
             throw new NotImplementedException();
         }

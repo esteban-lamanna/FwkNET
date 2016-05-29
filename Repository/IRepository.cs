@@ -14,7 +14,7 @@ namespace Repository
     {
         List<EV> ReadExtendedViewByCriteria(C criteriaEntity);
         EV Add(TBusinessEntity entity);
-        void Delete(TBusinessEntity entity);
+        void Delete(long ID);
         EV Update(TBusinessEntity entity);
     }
 }
