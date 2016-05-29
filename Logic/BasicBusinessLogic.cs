@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BusinessEntities.Persona;
+using Repository.Persona;
 
 namespace Logic
 {
-    public class BasicBusinessLogic
+    public class PersonaLogic : EntityManagerLogic<PersonaEntity, PersonaExtendedView,PersonaCriteria, IPersonaRepository>
     {
+        public PersonaLogic(IPersonaRepository Repository)
+            : base(Repository) { }
+
     }
 }

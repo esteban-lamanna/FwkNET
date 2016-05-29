@@ -41,9 +41,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BasicBusinessLogic.cs" />
+    <Compile Include="EntityManagerLogic.cs" />
+    <Compile Include="IBusinessLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BusinessEntities\BusinessEntities.csproj">
+      <Project>{9f0e47b2-dfdb-4d07-b04f-0738710d5655}</Project>
+      <Name>BusinessEntities</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Repository\Repository.csproj">
       <Project>{005685f1-6e14-4a40-b35a-b14570538d80}</Project>
       <Name>Repository</Name>
