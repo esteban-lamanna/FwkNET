@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{005685F1-6E14-4A40-B35A-B14570538D80}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessEntities", "BusinessEntities\BusinessEntities.csproj", "{9F0E47B2-DFDB-4D07-B04F-0738710D5655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC.csproj", "{C4B532F2-C638-4A92-BB1E-B2C65D4E9433}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentacion", "Presentacion", "{437842D2-0FB2-474C-A2A9-E12A74CB4D8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{FA2390DD-8A5E-46C8-9982-87E2CF5DE811}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{B696F004-B27B-4696-BDDC-9895B24779B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +29,17 @@ Global
 		{9F0E47B2-DFDB-4D07-B04F-0738710D5655}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F0E47B2-DFDB-4D07-B04F-0738710D5655}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F0E47B2-DFDB-4D07-B04F-0738710D5655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B532F2-C638-4A92-BB1E-B2C65D4E9433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B532F2-C638-4A92-BB1E-B2C65D4E9433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B532F2-C638-4A92-BB1E-B2C65D4E9433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B532F2-C638-4A92-BB1E-B2C65D4E9433}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{005685F1-6E14-4A40-B35A-B14570538D80} = {FA2390DD-8A5E-46C8-9982-87E2CF5DE811}
+		{9F0E47B2-DFDB-4D07-B04F-0738710D5655} = {B696F004-B27B-4696-BDDC-9895B24779B7}
+		{C4B532F2-C638-4A92-BB1E-B2C65D4E9433} = {437842D2-0FB2-474C-A2A9-E12A74CB4D8C}
 	EndGlobalSection
 EndGlobal
